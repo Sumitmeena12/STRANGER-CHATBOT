@@ -33,9 +33,9 @@
             "description": "Sticker for start ",
             "required": true
         },
-        "START_IMG": {
+        "START_IMG": {https://telegra.ph/file/19a19a82d791ee5f8abcb.jpg
             "description": "Start Image For Bot.",
-            "required": false
+            "required": true
         },
         
         "API_ID": {
