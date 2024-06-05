@@ -3,11 +3,11 @@
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
-            "required": true
+            "required": false
         },        
         "MONGO_URL": {
             "description": "mongo db url here",
-            "required": true
+            "required": false
         },
         "BOT_USERNAME": {
             "description": "telegram bot username here without @",
@@ -15,7 +15,7 @@
         },
         "OWNER_USERNAME": {
             "description": "Owner Username without @",
-            "required": false
+            "required": true
         },
         "BOT_NAME": {
             "description": "Simple Bot-name. Do not use Modified Text..",
@@ -27,7 +27,7 @@
         },
         "SUPPORT_GRP": {
             "description": "Your Support Group without @",
-            "required": false
+            "required": true
         },
         "STKR": {
             "description": "Sticker for start ",
@@ -40,11 +40,11 @@
         
         "API_ID": {
             "description": "telegram api id here",
-            "required": true
+            "required": false
         },
         "API_HASH": {
             "description": "telegram api hash here",
-            "required": true
+            "required": false
         }
     },
     "addons": [
