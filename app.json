@@ -23,7 +23,7 @@
         },
         "UPDATE_CHNL": {
             "description": "Your Updates Channel without @",
-            "required": false
+            "required": true
         },
         "SUPPORT_GRP": {
             "description": "Your Support Group without @",
